@@ -6,6 +6,14 @@ import java.rmi.RemoteException;
  */
 public interface RMIServerInterficie extends Remote{
 
-    public String calcularString(String string) throws  RemoteException;
+    //Implementem els metodes de la calculadora
+
+    /**
+     * Realitza el cálcul a partir d'un string
+     * @param string
+     * @return
+     * @throws RemoteException
+     */
+    String calcularString(String string) throws  RemoteException;
 
 }
